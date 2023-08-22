@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const menuSlice = createSlice({
+const menuSlice = createSlice({
   name: "menu",
   initialState: {
     toggle: false,
@@ -11,3 +11,5 @@ export const menuSlice = createSlice({
     },
   },
 });
+
+export default menuSlice
