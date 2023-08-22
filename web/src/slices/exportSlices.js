@@ -1,0 +1,1 @@
+export {default as menuSlice} from './01_menuSlice'
